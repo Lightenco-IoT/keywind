@@ -11,9 +11,37 @@ module.exports = {
   plugins: [require('@tailwindcss/forms')],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['font-sans', 'sans-serif'],
+        serif: ['font-sans', 'serif'],
+      },
       colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
+        primary: {
+          "50": "#4A41C1",
+          "100": "#4A41C1",
+          "200": "#4A41C1",
+          "300": "#4A41C1",
+          "400": "#4A41C1",
+          "500": "#4A41C1",
+          "600": "#4A41C1",
+          "700": "#4A41C1",
+          "800": "#4A41C1",
+          "900": "#4A41C1",
+          "950": "#4A41C1"
+        },
+        secondary: {
+          "50": "#121220",
+          "100": "#121220",
+          "200": "#121220",
+          "300": "#121220",
+          "400": "#121220",
+          "500": "#121220",
+          "600": "#121220",
+          "700": "#121220",
+          "800": "#121220",
+          "900": "#121220",
+          "950": "#121220"
+        },
 
         provider: {
           bitbucket: '#0052CC',
